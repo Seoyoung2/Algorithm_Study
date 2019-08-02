@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca51a88c-1975-4f0d-a78e-759c9e1ddf96" name="Default Changelist" comment="" />
+    <list default="true" id="ca51a88c-1975-4f0d-a78e-759c9e1ddf96" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/포도주 시식.py">
+        <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/연속합.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+            <state relative-caret-position="342">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
@@ -42,6 +44,11 @@
         <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/피보나치 함수.py" />
         <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/RGB거리.py" />
         <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/포도주 시식.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/가장 긴 증가하는 부분 수열.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/가장 긴 바이토닉 부분 수열.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/전깃줄.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/LCS.py" />
+        <option value="$PROJECT_DIR$/Baekjoon/동적계획법1/연속합.py" />
       </list>
     </option>
   </component>
@@ -94,6 +101,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -108,8 +116,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.포도주 시식">
-    <configuration name="포도주 시식" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.연속합">
+    <configuration name="가장 긴 증가하는 부분 수열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Problem_Solving_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,7 +129,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/포도주 시식.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/가장 긴 증가하는 부분 수열.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="정수 삼각형" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="가장 긴 바이토닉 부분 수열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Problem_Solving_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/정수 삼각형.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/가장 긴 바이토닉 부분 수열.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="피보나치 함수" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="전깃줄" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Problem_Solving_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,7 +171,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/피보나치 함수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/전깃줄.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="쉬운 계단 수" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="연속합" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Problem_Solving_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,7 +192,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/쉬운 계단 수.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/연속합.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +201,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="RGB거리" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LCS" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Problem_Solving_Study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,7 +213,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/RGB거리.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Baekjoon/동적계획법1/LCS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.포도주 시식" />
-        <item itemvalue="Python.RGB거리" />
-        <item itemvalue="Python.피보나치 함수" />
-        <item itemvalue="Python.쉬운 계단 수" />
-        <item itemvalue="Python.정수 삼각형" />
+        <item itemvalue="Python.연속합" />
+        <item itemvalue="Python.LCS" />
+        <item itemvalue="Python.전깃줄" />
+        <item itemvalue="Python.가장 긴 바이토닉 부분 수열" />
+        <item itemvalue="Python.가장 긴 증가하는 부분 수열" />
       </list>
     </recent_temporary>
   </component>
@@ -318,8 +326,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/포도주 시식.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="437">
           <caret line="23" column="69" lean-forward="true" selection-start-line="23" selection-start-column="69" selection-end-line="23" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/가장 긴 증가하는 부분 수열.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/가장 긴 바이토닉 부분 수열.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#449#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/전깃줄.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/LCS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baekjoon/동적계획법1/연속합.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
