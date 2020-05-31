@@ -1,4 +1,4 @@
-# data[i] : i+!번째 포도주의 양
+# data[i] : i+1번째 포도주의 양
 # Po[i] : i+1번째 포두주를까지의 최대로 마신 포도주 양
 # Po[i] = max(Po[i-2], Po[i-3] + data[i-1], Po[i-4]+data[i-1]) + data[i]
 
