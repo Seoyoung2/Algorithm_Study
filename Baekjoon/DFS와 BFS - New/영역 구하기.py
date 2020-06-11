@@ -1,4 +1,6 @@
 # https://www.acmicpc.net/problem/2583
+# stack으로 DFS : 168ms
+# deque으로 BFS : 220ms
 
 from sys import stdin
 
