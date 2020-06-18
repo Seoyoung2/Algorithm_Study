@@ -1,8 +1,4 @@
-# https://www.acmicpc.net/problem/13460
-
-# 시간은 비슷비슷하구나
-# visit이 dictionary형태 : 180ms / visit이 4차원 배열 : 176ms
-# bfs를 함수 호출했을 때 : 176ms / 함수 없이 실행시켰을 때 : 180ms
+# https://www.acmicpc.net/problem/13459
 
 from sys import stdin
 from collections import deque
@@ -47,7 +43,7 @@ def bfs():
                 continue
             # 빨간 공만 탈출한 경우
             elif not nrx and not nry:
-                print(visit[rx, ry, bx, by] + 1)
+                print(1)
                 return
             # 두 공이 같은 위치에 있는 경우
             elif nrx == nbx and nry == nby:
@@ -64,9 +60,8 @@ def bfs():
                 queue.append([nrx, nry, nbx, nby])
         # answer에 값을 넣었거나 queue가 비었거나 움직인 횟수가 10이상이면 그만
         if not queue or visit[rx, ry, bx, by] >= 10:
-            print(-1)
+            print(0)
             return
 
 
 bfs()
-
