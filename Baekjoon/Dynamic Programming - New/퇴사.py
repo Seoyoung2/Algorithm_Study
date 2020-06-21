@@ -1,19 +1,17 @@
 # https://www.acmicpc.net/problem/14501
-# dp[n] :
 
+# DP로 해결
 from sys import stdin
-from collections import deque
 
 n = int(stdin.readline())
-dp = [0] * n        # n일까지 번 돈
+dp = [0] * 20        # n일까지 번 돈
 for day in range(n):
     t, p = map(int, stdin.readline().split())
-    if day + t < n:
-        if dp[day+1] < dp[day]:
-            dp[day+1] = dp[day]
-        if dp[day] + p > dp[day+t]:
-            dp[day+t] = dp[day] + p
-print(dp)
+    if dp[day+1] < dp[day]:
+        dp[day+1] = dp[day]
+    if dp[day] + p > dp[day+t]:
+        dp[day+t] = dp[day] + p
+print(dp[n])
 
 
 # BFS로 해봤지만 실패.. 뭔가 놓친게 있는 듯 하다
