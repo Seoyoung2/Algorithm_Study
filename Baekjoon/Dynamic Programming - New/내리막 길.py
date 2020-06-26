@@ -22,4 +22,3 @@ def dfs(x, y):
 
 
 print(dfs(0, 0))
-print(dp)
