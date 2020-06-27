@@ -15,7 +15,7 @@ def dfs(x, y):
         for dx, dy in (1, 0), (-1, 0), (0, 1), (0, -1):
             if 0 <= x+dx < n and 0 <= y+dy < n:
                 if M[x][y] < M[x+dx][y+dy]:
-                    m = max(m, bfs(x+dx, y+dy))
+                    m = max(m, dfs(x+dx, y+dy))
         dp[x][y] += m
     return dp[x][y]
 
@@ -23,5 +23,5 @@ def dfs(x, y):
 for i in range(n):
     for j in range(n):
         if not dp[i][j]:
-            bfs(i, j)
+            dfs(i, j)
 print(max([max(num) for num in dp]))
