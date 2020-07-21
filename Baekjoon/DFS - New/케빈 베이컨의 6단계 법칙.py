@@ -2,6 +2,8 @@
 # 이런 최단거리 문제는 dfs보다 bfs가 훨훨훨후러씬 편하고 쉽다..
 # dfs로 푸는거 다시 해봐야할 듯 ㅠㅠ
 
+# + dfs로 최단거리 문제 풀려면 방문한 노드 재방문을 허용해야 하므로 visit을 1로 해주고 dfs 재귀호출하고 다시 visit을 0으로 설정 필요!!
+
 from sys import stdin
 
 N, M = map(int, stdin.readline().split())
