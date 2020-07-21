@@ -1,25 +1,43 @@
 # https://www.acmicpc.net/problem/1389
+# 이런 최단거리 문제는 dfs보다 bfs가 훨훨훨후러씬 편하고 쉽다..
+# dfs로 푸는거 다시 해봐야할 듯 ㅠㅠ
 
 from sys import stdin
 
-n, m = map(int, stdin.readline().split())
-graph = [[0] * n for _ in range(n)]
-for _ in range(m):
+N, M = map(int, stdin.readline().split())
+graph = [[] for _ in range(N+1)]
+for _ in range(M):
     a, b = map(int, stdin.readline().split())
-    graph[a][b] = 1
-    graph[b][a] = 1
+    graph[a].append(b)
+    graph[b].append(a)
 
 
-def dfs(x, y):
-    # 최단경로를 구해야할 거 같은데 dfs 가능한가?
-
-
-bacon = 99999
 ans = -1
-for i in range(n):
-    graph[i][i] = 1
-    for j in range(n):
-        if graph[i][j] == 0:
-            dfs(i, j)
-    if sum(graph[i]) < bacon:
-        ans = i + 1
+visit = [0] * (N+1)
+
+
+def dfs(x, y, cnt):
+    global tmp
+    if x == y:
+        tmp = min(tmp, cnt)
+        return
+    for n in graph[x]:
+        if visit[n] == 0:
+            visit[x] = 1
+            dfs(n, y, cnt+1)
+            visit[x] = 0
+
+
+res = 999999
+for i in range(1, N+1):
+    bacon = 0
+    for j in range(1, N+1):
+        if i != j:
+            tmp = 999999
+            dfs(i, j, 0)
+            bacon += tmp
+    if bacon < res:
+        res = bacon
+        ans = i
+
+print(ans)
