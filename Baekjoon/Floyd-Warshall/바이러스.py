@@ -13,12 +13,10 @@ for _ in range(e):
 for k in range(1, v+1):
     for i in range(1, v+1):
         for j in range(1, v+1):
-            if i == j:
-                graph[i][j] = 0
-            else:
-                graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j])
+            graph[i][j] = min(graph[i][j], graph[i][k] + graph[k][j])
+
 ans = 0
 for num in graph[1]:
-    if 0 < num < 100:
+    if num < 100:
         ans += 1
-print(ans)
+print(ans-1)
