@@ -29,6 +29,7 @@ while True:
     time += 1
     # 높이 줄이기
     visit = [graph[i][:] for i in range(n)]
+    # while문이 아닌 for문(len(queue))을 사용함으로써 동시간대에 사라진 빙산 무시
     for _ in range(len(queue)):
         x, y = queue.popleft()
         for dx, dy in (1, 0), (-1, 0), (0, 1), (0, -1):
