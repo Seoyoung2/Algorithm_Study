@@ -1,5 +1,5 @@
 # https://www.acmicpc.net/problem/9095
-# dp[n] = dp[n-1] + dp[n-2] + dp[n-1]
+# dp[n] = dp[n-1] + dp[n-2] + dp[n-3]
 
 from sys import stdin
 
