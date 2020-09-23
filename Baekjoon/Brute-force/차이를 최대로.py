@@ -9,9 +9,7 @@ A = list(map(int, stdin.readline().split()))
 
 ans = 0
 for case in permutations(A):
-    tmp = 0
-    for i in range(1, N):
-        tmp += abs(case[i-1] - case[i])
+    tmp = sum(abs(case[i] - case[i+1]) for i in range(N-1))
     ans = max(ans, tmp)
 
 print(ans)
