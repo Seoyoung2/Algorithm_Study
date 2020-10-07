@@ -35,22 +35,19 @@ while True:
     if nx < 0 or nx >= N or ny < 0 or ny >= N or board[nx][ny] == 3:
         break
 
-    print(nx, ny, end=" (")
-
-    if board[nx][ny] == 0:
+    elif board[nx][ny] == 0:
         # 사과 못 먹으면
         ex, ey = road.popleft()
         board[ex][ey] = 0
     road.append((nx, ny))
     board[nx][ny] = 3
 
-    if turn and time == turn[0][0]:
+    if turn and time == turn[0][0]-1:
         if turn[0][1] == 'L':
             go = left[straight.index(go)]
         else:
             go = right[straight.index(go)]
         turn.popleft()
     time += 1
-    print(time)
 
-print(time)
+print(time+1)
